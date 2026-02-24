@@ -1,43 +1,27 @@
-<<<<<<< HEAD
-import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
-=======
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
->>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
 
 void main() {
   runApp(const SmartNoteApp());
 }
 
 class SmartNoteApp extends StatelessWidget {
-<<<<<<< HEAD
-  const SmartNoteApp({Key? key}) : super(key: key);
-=======
   const SmartNoteApp({super.key});
->>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Smart Note',
-<<<<<<< HEAD
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const HomeScreen(studentName: 'Vũ Anh Đức', studentId: '2351060432'),
-    );
-  }
-}
-=======
+      title: 'Smart Note - Vũ Anh Đức - 2351060432',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.amber,
         scaffoldBackgroundColor: const Color(0xFFF5F5F5),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: HomeScreen(studentName: 'Vũ Anh Đức', studentId: '2351060432'),
     );
   }
 }
@@ -73,7 +57,10 @@ class Note {
 
 // --- MÀN HÌNH CHÍNH ---
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final String studentName;
+  final String studentId;
+
+  const HomeScreen({super.key, required this.studentName, required this.studentId});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -137,9 +124,18 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Smart Note - Nguyễn Văn Hải - 2351060441", // THAY TÊN & MSSV TẠI ĐÂY
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+        title: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'Smart Note',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            Text(
+              '${widget.studentName} - ${widget.studentId}',
+              style: TextStyle(fontSize: 14),
+            ),
+          ],
         ),
         centerTitle: true,
       ),
@@ -350,7 +346,15 @@ class _DetailScreenState extends State<DetailScreen> {
       },
       child: Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(backgroundColor: Colors.white, elevation: 0),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          elevation: 0,
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.pop(context),
+          ),
+          title: Text(widget.note == null ? 'Tạo ghi chú mới' : 'Chỉnh sửa ghi chú'),
+        ),
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
@@ -382,4 +386,3 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   }
 }
->>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551

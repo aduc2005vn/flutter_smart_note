@@ -6,11 +6,7 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
     namespace = "com.example.flutter_smart_note"
-=======
-    namespace = "com.example.thuchanh_buoi2"
->>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -25,11 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-<<<<<<< HEAD
         applicationId = "com.example.flutter_smart_note"
-=======
-        applicationId = "com.example.thuchanh_buoi2"
->>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
