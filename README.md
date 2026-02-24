@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutter_smart_note
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Smart_note
+Nguyễn Văn Hải_ 2351060441
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551

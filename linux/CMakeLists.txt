@@ -4,10 +4,17 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
+<<<<<<< HEAD
 set(BINARY_NAME "flutter_smart_note")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.flutter_smart_note")
+=======
+set(BINARY_NAME "thuchanh_buoi2")
+# The unique GTK application identifier for this application. See:
+# https://wiki.gnome.org/HowDoI/ChooseApplicationID
+set(APPLICATION_ID "com.example.thuchanh_buoi2")
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

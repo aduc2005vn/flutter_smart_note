@@ -90,6 +90,7 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_staggered_grid_view
+<<<<<<< HEAD
       sha256: "1312314293acceb65b92754298754801b0e1f26a1845833b740b30415bbbcf07"
       url: "https://pub.dev"
     source: hosted
@@ -102,6 +103,12 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.6"
+=======
+      sha256: "19e7abb550c96fbfeb546b23f3ff356ee7c59a019a651f8f102a4ba9b7349395"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.0"
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -116,10 +123,17 @@ packages:
     dependency: "direct main"
     description:
       name: intl
+<<<<<<< HEAD
       sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
       url: "https://pub.dev"
     source: hosted
     version: "0.18.1"
+=======
+      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.19.0"
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
   leak_tracker:
     dependency: transitive
     description:
@@ -184,6 +198,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+<<<<<<< HEAD
   path_drawing:
     dependency: transitive
     description:
@@ -200,6 +215,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+=======
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
   path_provider_linux:
     dependency: transitive
     description:
@@ -224,6 +241,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
+<<<<<<< HEAD
   petitparser:
     dependency: transitive
     description:
@@ -232,6 +250,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.2"
+=======
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
   platform:
     dependency: transitive
     description:
@@ -389,6 +409,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+<<<<<<< HEAD
   xml:
     dependency: transitive
     description:
@@ -399,4 +420,8 @@ packages:
     version: "6.6.1"
 sdks:
   dart: ">=3.9.0 <4.0.0"
+=======
+sdks:
+  dart: ">=3.10.7 <4.0.0"
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
   flutter: ">=3.35.0"

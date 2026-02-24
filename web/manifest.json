@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "flutter_smart_note",
     "short_name": "flutter_smart_note",
+=======
+    "name": "thuchanh_buoi2",
+    "short_name": "thuchanh_buoi2",
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

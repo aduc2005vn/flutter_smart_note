@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Flutter Smart Note</string>
+=======
+	<string>Thuchanh Buoi2</string>
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>flutter_smart_note</string>
+=======
+	<string>thuchanh_buoi2</string>
+>>>>>>> 1fa759a7a09ca73ab9ce9f15d946ec6e88399551
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
